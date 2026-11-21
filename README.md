@@ -109,7 +109,6 @@ Wireshark was used to capture network traffic on Kali Linux's host-only interfac
 
 ```text
 ip.addr == 192.168.88.128 && tcp.port == 22
-```
 
 The capture showed TCP SYN packets sent from Kali Linux to Ubuntu Server.
 
@@ -141,7 +140,6 @@ The server's protocol banner differed in package revision from the earlier Nmap 
 
 ```text
 tcp.port == 22 && tcp.len > 0
-```
 
 This filter isolated SSH packets containing TCP payload data.
 
